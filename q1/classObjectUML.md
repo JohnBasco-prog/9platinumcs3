@@ -5,24 +5,18 @@
 |---|---|---|
 |Food name | String| Name of the food |
 |Food price |Int |Price of the food |
-|Food quantity |Int |How much food is left |
-|Food Schedule |String |When will this food be on stock |
+|Food description |string|Tells the taste and description of the food |
+|Food Schedule |String |When will this food be on stock (every wednesday, thursday, friday) |
 ## Methods
 | Method | Description |
 |---|---|
 |Display() |Displays food menu |
 |Quantity() |Displays how much food is left |
-|Change() |Changes food based on the date |
+|Change(foodname: str) |Changes food on the menu|
 ## Class Diagram
-| Electric | Canteen | Food Menu |
-|---|---|---|
-|Food name  |String | |
-|Food price |Int | |
-|Food quantity  |Int | |
-|Food Schedule  |String  | |
-|Display() | | |
-|Quantity()  | | |
-|Change()  | | |
+<img width="1035" height="582" alt="Screenshot 2026-09-04 224705" src="https://github.com/user-attachments/assets/c9791b4a-ccce-4eb8-bd81-c9e37279079b" />
+
+
 ## Design Explanation
 ### Why did you choose this class?
 I chose this class because it will help with the efficiency of the canteen. It will also help with faster descisions among the students and make the canteen operate faster.
