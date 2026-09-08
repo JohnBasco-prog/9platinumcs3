@@ -3,14 +3,14 @@
 Link to my previous activity:
 [classObjectUML.md](classObjectUML.md)
 ## Design Revision
-Describe any changes made to your original class.
+Changed Food Schedule(String) to Is_available(Boolean)
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+|food_name |string |Private |There are individual food names for different kinds of food |
+|food_price |int |Private |There are individual food prices for different kinds of food |
+|food_description |string |Private |There are individual food descripitons for different kinds of food |
+|is_available |boolean |Public |True and False determine if a food is on stock or not, this can be shared among different food |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation
