@@ -12,7 +12,8 @@ Changed Food Schedule(String) to Is_available(Boolean)
 |food_description |string |Private |There are individual food descripitons for different kinds of food |
 |is_available |boolean |Public |True and False determine if a food is on stock or not, this can be shared among different food |
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
+<img width="1067" height="611" alt="Screenshot 2026-09-09 213653" src="https://github.com/user-attachments/assets/183feebc-eb35-4050-9659-24190d45b75f" />
+
 ## Python Implementation
 
 [View Python Source](classImplementation.py)
