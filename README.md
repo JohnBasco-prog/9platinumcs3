@@ -14,10 +14,8 @@
  # OOP Concept
  https://github.com/JohnBasco-prog/9platinumcs3/blob/main/q1/OOPCONCEPT.md
 
- # OOP_Act
-
  # OOP Act
-
+ 
  # OOP Act - Part 2
 
  # OOP Act - Part 3
