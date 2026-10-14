@@ -27,6 +27,6 @@
 # Second Quarter (my comeback)
 
 # Sg 8 Activity 3
-
+https://github.com/JohnBasco-prog/9platinumcs3/blob/main/q2/sg8_encapsulation.py
 
  
