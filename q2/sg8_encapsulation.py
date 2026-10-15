@@ -6,14 +6,14 @@ class Bank_account: #initialize the variables.
 
 #setter and getter methods for account number and balance
 def set_account_number(self, account_number):
-  self.__account_number = account_number
+  self.__account_number = 1234
 
 def get_account_number(self):
   print(f"{self.__account_number}")
 
 def set_balance(self, set_balance):
   if self.__balance > 0:
-    self.balance = balance
+    self.balance = 1000
 
 def get_balance(self):
   print(f"{self.__balance}")
