@@ -29,7 +29,10 @@
 # Sg 8 Encapsulation
 https://github.com/JohnBasco-prog/9platinumcs3/blob/main/q2/sg8_encapsulation.py
 
-# Sg 8 Inheritance
+# Sg 9 Inheritance
 https://github.com/JohnBasco-prog/9platinumcs3/blob/main/q2/sg8_inheritance.py
+
+# Sg 10 
+https://github.com/JohnBasco-prog/9platinumcs3/blob/main/q2/sg10_Method_Overriding
 
  
