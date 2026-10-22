@@ -19,39 +19,46 @@ class Publication:
     print("Title:", self.get_title())
     print("Author:", self.get_author())
 
+
 class Book(Publication):
   def __init__(self, title, author, number_of_pages):
     super().__init__(title, author)
-    self.set_number_of_pages(number_of_pages)
     self.__number_of_pages = 0
+    self.set_number_of_pages(number_of_pages)
+   
     
   
   def set_number_of_pages(self, number_of_pages):
-      if self.__number_of_pages > 0:
-      self.__number_of_pages = number_of_pages
+      if number_of_pages > 0:
+        self.__number_of_pages = number_of_pages
 
       else: 
         print("Number of pages must be positive")
+
+  def get_number_of_pages(self):
+    return self.__number_of_pages
   
   def display_info(self):
     super().display_info()
     print("Number of pages:", self.get_number_of_pages())
 
+
 class Magazine(Publication):
-  def __init__(self, title, author, issue_number)
-    super().__init__(title, author):
+  def __init__(self, title, author, issue_number):
+    super().__init__(title, author)
     self.__issue_number = 0
     self.set_issue_number(issue_number)
   
   def set_issue_number(self, issue_number):
-       if self.__number_of_pages > 0:
-      self.__number_of_pages = number_of_pages
+    if issue_number > 0:
+      self.__issue_number = issue_number
 
-      else: 
-        print("Number of pages must be positive")
+    else: 
+      print("Number of pages must be positive")
    
   def get_issue_number(self):
-     return self.issue_number
+    return self.__issue_number
+  
   def display_info(self):
     super().display_info()
     print("Issue number:", self.get_issue_number())
@@ -62,7 +69,9 @@ mag1 = Magazine("National Geographic", "Various Authors", 202)
 
 print("Publication Information")
 pub1.display_info()
+print("")
 print("Book Information")
 book1.display_info()
+print("")
 print("Magazine Information")
 mag1.display_info()
