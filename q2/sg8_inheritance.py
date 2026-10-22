@@ -1,4 +1,4 @@
-lass Publication:
+class Publication:
   def __init__(self,title,author):
     self.__title = title
     self.__author = author
@@ -16,8 +16,8 @@ lass Publication:
     return self.__author
   
   def display_info(self):
-    print("Title:", get_title())
-    print("Author:", get_author())
+    print("Title:", self.get_title())
+    print("Author:", self.get_author())
 
 class Book(Publication):
   def __init__(self, title, author, number_of_pages):
@@ -35,13 +35,13 @@ class Book(Publication):
   
   def display_info(self):
     super().display_info()
-    print("Issue number:", self.get_number_of_pages())
+    print("Number of pages:", self.get_number_of_pages())
 
 class Magazine(Publication):
-  def __init__(self, title, author, issue_number):
+  def __init__(self, title, author, issue_number)
     super().__init__(title, author):
     self.__issue_number = 0
-    self.set.issue_number(issue_number)
+    self.set_issue_number(issue_number)
   
   def set_issue_number(self, issue_number):
        if self.__number_of_pages > 0:
